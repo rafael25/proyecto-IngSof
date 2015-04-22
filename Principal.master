@@ -12,6 +12,9 @@
             width: 1000px;
             height: 760px;
         }
+        .boton {
+            margin: 5px 10px;
+        }
     </style>
 </head>
 <body>
@@ -19,10 +22,11 @@
     <div>
         <table align="center" cellspacing="0" class="auto-style1">
             <tr>
-                <td colspan="2" style="vertical-align: top; height: 240px; text-align: right;">
+                <td style="vertical-align: top; height: 240px; text-align: right;">
                     <asp:LoginView ID="LoginView1" runat="server">
                         <AnonymousTemplate>
                             <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                            
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <asp:Label ID="Label2" runat="server" Text="Hola "></asp:Label>
@@ -32,8 +36,8 @@
                         </LoggedInTemplate>
                     </asp:LoginView>
                     <br />
-                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagenes/TituloA.png" />
                 </td>
+                <td><asp:Image ID="Image1" runat="server" ImageUrl="~/Imagenes/portada.png" Height="212px" Width="771px" /></td>
             </tr>
             <tr>
                 <td style="height: 450px; vertical-align: top; width: 220px;">
@@ -47,16 +51,16 @@
                         <DynamicMenuStyle BackColor="#F7F6F3" />
                         <DynamicSelectedStyle BackColor="#5D7B9D" />
                         <Items>
-                            <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Pagina Principal" Value="Pagina Principal"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Mantenimientos/Clientes.aspx" Text="Clientes" Value="Clientes"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Mantenimientos/Productos.aspx" Text="Productos" Value="Productos"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Movimientos/NuevaFactura.aspx" Text="Nueva Factura" Value="Nueva Factura"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Reportes/ListadoClientes.aspx" Text="Listado de Clientes" Value="Listado de Clientes"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Reportes/ListadoProductos.aspx" Text="Listado Productos" Value="Listado Productos"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Reportes/ListadoFacturas.aspx" Text="Reporte Facturas" Value="Reporte Facturas"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Pagina Principal" Value="Pagina Principal">
+                                <asp:MenuItem NavigateUrl="~/AcercaDe.aspx" Text="Acerca de..." Value="Acerca de..."></asp:MenuItem>
+                            </asp:MenuItem>
                             <asp:MenuItem NavigateUrl="~/Administracion/AsignarPermisos.aspx" Text="Asignacion de Permisos" Value="Asignacion de Permisos"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Administracion/BajaEmpleado.aspx" Text="Bada de Empleado" Value="Bada de Empleado"></asp:MenuItem>
                             <asp:MenuItem NavigateUrl="~/CambioPass/CambiarPass.aspx" Text="Cambiar Contraseña" Value="Cambiar Contraseña"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/AcercaDe.aspx" Text="Acerca de..." Value="Acerca de..."></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Productos/MostrarProductos.aspx" Text="Productos" Value="Productos"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Productos/AltaProducto.aspx" Text="Registrar Producto" Value="Registrar Producto"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Productos/BajaProducto.aspx" Text="Baja de Producto" Value="Baja de Producto"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Productos/ModificarProducto.aspx" Text="Modificar Producto" Value="Modificar Producto"></asp:MenuItem>
                         </Items>
                         <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
                         <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -74,8 +78,7 @@
             </tr>
             <tr>
                 <td colspan="2" style="height: 70px">
-                    <asp:Image ID="Image2" runat="server" ImageUrl="~/Imagenes/PieA.png" />
-                </td>
+                    &nbsp;</td>
             </tr>
         </table>
         <br />

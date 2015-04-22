@@ -1,0 +1,18 @@
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\bin\Debug\CADSIGA.dll.config
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\bin\Debug\CADSIGA.dll
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\bin\Debug\CADSIGA.pdb
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\bin\Debug\CADSIGA.xml
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.Resources.resources
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.vbproj.GenerateResource.Cache
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.dll
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.xml
+F:\UNITEC\Ingenieria de Software\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.pdb
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.Resources.resources
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.vbproj.GenerateResource.Cache
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.dll
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.xml
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\obj\Debug\CADSIGA.pdb
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\bin\Debug\CADSIGA.dll.config
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\bin\Debug\CADSIGA.dll
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\bin\Debug\CADSIGA.pdb
+C:\Users\rafael\Documents\SIGA-Clase\CADSIGA\bin\Debug\CADSIGA.xml
